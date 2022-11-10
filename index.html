@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method="post" action="http://localhost:5000/login""">
+        <h1>SegelHome</h1>
+        <input type="text" name="username"></input>
+        <input type="password" name="password"></input>
+        <button type="submit">LOGIN</button>
+
+
+    </form>
+</body>
+
+<style>
+    html{
+        padding:0;
+        margin:0;
+        height: 100%;
+    }
+
+    body{
+        padding:0;
+        margin:0;
+        display: grid;
+        height:100%;
+        grid-template-columns: 1fr;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 15rem;
+        margin: auto;
+        position: relative;
+    }
+    
+    input{
+        height: 1rem;
+        margin: auto;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 90%;
+    }
+
+    button{
+        margin: auto;
+        height: 2rem;
+        width: 90%;
+    
+    }
+    h1{
+        text-align: center;
+        height: fit-content;
+        padding:0;
+    }
+
+
+
+
+
+</style>
+</html>
