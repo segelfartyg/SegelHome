@@ -1,0 +1,14 @@
+{
+  "name": "segelhome",
+  "version": "1.0.0",
+  "description": "Segelfartygs home station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "segelfartyg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
