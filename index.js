@@ -117,7 +117,7 @@ var session;
         console.log("connected")
         socket.on("stream", (image) =>{
           
-          console.log("emitting");
+
             socket.broadcast.emit("stream", image);
           
         
