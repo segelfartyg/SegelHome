@@ -4,6 +4,13 @@ html, body {
     display: grid;
 }
 
+#play{
+
+    transform: rotate(90deg);
+
+
+}
+
 
 h1{
     text-align: center;
